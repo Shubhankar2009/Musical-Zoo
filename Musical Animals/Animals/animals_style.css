@@ -1,0 +1,23 @@
+.animals{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+body{
+    transition: background-image 1s 10ms;
+}
+
+.main1{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+
+@media (max-width:768px) {
+    .animals{
+        height: 150px;
+        width: 150px;
+    }
+}

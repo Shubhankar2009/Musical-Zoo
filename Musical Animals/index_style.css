@@ -1,0 +1,153 @@
+.title{
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5%;
+}
+
+.title-continued{
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 0px;
+    color: white;
+}
+
+.continue{
+    float: left;
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 120px;
+    width: 350px;
+    font-size: 40px;
+    font-weight: 550;
+    background-color: rgb(255, 255, 100);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.continue:hover{
+    background-color: yellow;
+
+}
+
+body{
+    background-image: url("https://www.treehugger.com/thmb/QolJfOYFmxwIH6Sxv5SBqY8Kq-M=/1885x1414/smart/filters:no_upscale()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg");
+    padding: 10px;
+    font-family:  'Montserrat', sans-serif;
+
+}
+
+@media (min-width:2560px) {
+    .continue{
+        margin-left: 43%;
+    }
+}
+
+@media (max-width:1440px) {
+    .continue{
+        margin-left: 37%;
+    }
+}
+
+@media (max-width:1024px) {
+    .continue{
+        margin-left: 34%;
+        height: 100px;
+        width: 300px;
+        font-size: 35px;
+    }
+    .title{
+        margin-top: 20%;
+        font-size: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .title-continued{
+        font-size: 100px;
+    }
+}
+
+@media (max-width:768px) {
+    .continue{
+        margin-left: 30%;
+        height: 100px;
+        width: 300px;
+        font-size: 35px;
+    }
+    .title{
+        margin-top: 30%;
+        font-size: 80px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .title-continued{
+        font-size: 80px;
+    }
+}
+
+@media (max-width:425px) {
+    .continue{
+        margin-left: 25%;
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
+    }
+    .title{
+        margin-top: 40%;
+        font-size: 60px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .title-continued{
+        font-size: 60px;
+    }
+}
+
+@media (max-width:375px) {
+    .continue{
+        margin-left: 20%;
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
+    }
+    .title{
+        margin-top: 40%;
+        font-size: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .title-continued{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:320px) {
+    .continue{
+        margin-left: 20%;
+        height: 50px;
+        width: 180px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    .title{
+        margin-top: 40%;
+        font-size: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .title-continued{
+        font-size: 50px;
+    }
+}
+
+@media (max-height:600px) {
+    .title{
+        margin-top: 10%;
+    }
+    .continue{
+        margin-bottom: 10%;
+    }
+}
